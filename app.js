@@ -21,3 +21,14 @@ const phrases = [
     'no you miscalculated',
     'sparky sparky boom man'
 ];
+
+const getRandomPhraseAsArray = (arr) => {
+    const randomIndex = Math.floor( Math.random() * arr.length );
+    const phrase = arr[randomIndex];
+    const characterArray = [];
+    for (let i = 0; i < phrase.length; i++) {
+        characterArray.push(phrase[i]);
+    }
+    return characterArray;
+};
+
