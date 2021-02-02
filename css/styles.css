@@ -75,6 +75,10 @@ button {
   color: var(--color-start);
 }
 
+h2 {
+text-align: center;
+}
+
 /* Phrase */
 
 .letter {
@@ -86,11 +90,15 @@ button {
   color: transparent;
   background: var(--color-neutral-light);
   border-radius: 5px;
+  transition: background-color 300ms cubic-bezier(.8,.11,.55,1.33) 100ms, 
+              color 600ms cubic-bezier(.8,.11,.55,1.33) 100ms;
 }
 
 .space {
   width: 15px;
 }
+
+
 
 .show {
   color: #000;
@@ -160,19 +168,4 @@ button {
 
 .lose a {
   color: var(--color-lose);
-}
-
-/* win & lose div styles */
-.win, 
-.lose {
-  display: flex;
-  flex-direction: column;
-  position: fixed;
-  color: #FFFFFF;
-  justify-content: center;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  border-radius: 5px;
 }
