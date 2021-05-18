@@ -142,7 +142,8 @@ const phrases = [
     'a giant lion turtle told me', 
     'pai sho', 
     'who knocks at the garden gate', 
-    'three on three plus sokka'
+    'three on three plus sokka',
+    'bitter work'
 ];
 
 
